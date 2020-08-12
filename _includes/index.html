@@ -8,8 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/vendor/progress.css">
 </head>
 <body>
+	<div class="vue"></div>
 	<script type="text/javascript" src="{{ site.baseurl }}/vendor/vue.min.js"></script>
 	<script type="text/javascript" src="{{ site.baseurl }}/vendor/vue-router.min.js"></script>
 	<script type="text/javascript" src="{{ site.baseurl }}/vendor/progress.js"></script>
+	<script type="text/javascript">
+		new Vue({
+			el: '.vue'
+		})
+	</script>
 </body>
 </html>
