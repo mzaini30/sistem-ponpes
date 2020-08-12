@@ -12,6 +12,7 @@
 		<router-view></router-view>
 	</div>
 	{% include beranda.html %}
+	{% include tes.html %}
 	<script type="text/javascript" src="{{ site.baseurl }}/vendor/vue.min.js"></script>
 	<script type="text/javascript" src="{{ site.baseurl }}/vendor/vue-router.min.js"></script>
 	<script type="text/javascript" src="{{ site.baseurl }}/vendor/progress.js"></script>
@@ -24,6 +25,10 @@
 					{
 						path: '/',
 						component: beranda
+					},
+					{
+						path: '/tes',
+						component: tes
 					}
 				]
 			})
